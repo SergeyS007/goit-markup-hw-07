@@ -1,0 +1,80 @@
+.body {
+  font-family: $main-font;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+
+  color: $main-text-color;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+
+  letter-spacing: 0.06em;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  color: $secondary-text-color;
+  background-color: $accent-color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  & :focus {
+    color: $secondary-text-color;
+    background-color: #188ce8;
+
+    cursor: pointer;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
