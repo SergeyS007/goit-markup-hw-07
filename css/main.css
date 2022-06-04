@@ -39,6 +39,18 @@ ul {
   padding-bottom: 94px;
 }
 
+.section__titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.section__titles--margin {
+  margin-bottom: 50px;
+}
+
 .img {
   display: block;
   max-width: 100%;
@@ -544,10 +556,6 @@ ul {
   z-index: 0;
 }
 
-.section--margin {
-  margin-bottom: 50px;
-}
-
 .activities__item + .activities__item {
   margin-left: 30px;
 }
@@ -582,14 +590,6 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.section__titles {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
 }
 
 .team__item {
